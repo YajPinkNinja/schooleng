@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request, redirect
 import serial
-from colorama import init
-from colorama import Fore, Back, Style
-import threading
 import time
 temp = "NaN"
 humid = "NaN"
